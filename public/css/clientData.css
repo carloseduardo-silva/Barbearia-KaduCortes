@@ -1,0 +1,220 @@
+body{
+    background-color: white;
+    height: 100vh;
+    
+}
+*{
+    font-family: 'Inconsolata', monospace;
+}
+
+li{
+    font-size: 1.8em;
+}
+
+section#image{
+    background-image: url(../imagens/fundo2.jpg);;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top:2px solid#f1b707;
+    border-bottom:10px solid#f1b707 ;
+    height: 50vh;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+   
+}
+
+div#center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #f1b707;
+    color: rgb(24, 24, 24);
+    width:180px;
+    height: 70px;
+    padding: 0.4em 0.2em 0.15em 0.2em;
+    border-radius: 13px;
+    font-weight: bolder;
+    margin-bottom: -2.5em;
+}
+
+div#center p {
+    font-size: 1.88em;
+    font-family: 'Inconsolata', monospace;
+    word-spacing: -1px;
+    line-height: 29px;
+}
+
+form.client-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.2em;
+
+
+
+}
+
+
+input.form-control{
+
+    height: 38px;
+    font-size: 16px;
+    border-bottom: 1.5px solid#f1b707 ;
+    margin-bottom: 1em;
+}
+
+label{
+    font-size: 22px;
+}
+
+
+
+
+
+h2{
+    text-align: center;
+    margin-top: 1.7em;
+    margin-bottom: 0.5em;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 600;
+    
+}
+
+div#botoes{
+    display: flex;
+    justify-content: space-between;
+    width: 96vw;
+    margin-top: -4em;
+    
+}
+
+#botao-marcar{
+    display: flex;
+    margin-right: 1em;
+}
+
+#botao-voltar{
+    display: flex;
+    margin-left: 1em;
+}
+button.submit{
+    background-color: transparent;
+    border: none;
+    
+}
+
+button.btn{
+    background-color: white;
+    color:  #f1b707;
+    border-radius: 15px;
+    padding: 0.5em 2.5em;
+    width: 200px;
+}
+
+button.btn:hover{
+    background-color:  #f1b707;
+}
+
+a {
+   color: #f1b707;
+}
+
+a:focus, a:hover{
+    color: rgba(176, 175, 175, 0.73) ;
+}
+
+#menu-hamburguer{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+div.form-div {
+    width: 60vw;
+    max-width: 550px;
+}
+
+form.main{
+    width: 80vw;
+
+}
+
+
+
+
+
+@media (min-height: 850px ) {
+
+    h2{
+        text-align: center;
+        margin-top: 2.6em;
+        margin-bottom: 1.8em;
+        font-size: 30px;
+        
+    }
+
+    section#servicos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4em;
+        
+    }
+    
+}
+
+@media (max-width: 545px){
+
+    section#image{
+        height: 40vh;
+    }
+
+    #menu-hamburguer{
+        display: flex;
+        justify-content: center;
+        font-size: 2.4em;
+    }
+
+    #list{
+        display: none;
+    }
+    ul.nav-tabs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em 1em 0.3em 1em;
+        border-bottom: none;
+    }
+    nav{
+        padding: 0.75em;
+      
+    }
+    li{
+        font-size: 1.5em;
+        padding: 0.18em;
+    }
+
+     li:hover{
+       
+        border-radius: 10px;
+        transition: 870ms;
+    }
+    .nav-tabs>li>a:hover{
+        color: black;
+        transition: 700ms;
+        border-radius: 12px;
+
+    }
+
+ 
+
+
+}

@@ -1,0 +1,963 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    color: 1c1c1c;
+}
+
+h1, h2, h3{
+    font-family: 'Asap', sans-serif;
+}
+
+
+div.foto{
+    display: none;
+   }
+
+#menu-hamburguer{
+    margin-top:0.25em;
+   
+    font-size: 2.5em;
+    color: white;
+    cursor: pointer;
+    margin-right: 1em;
+}
+#menu-hamburguer:hover{
+    color:#f5b802f8;
+    transition: 800ms;
+    font-size:2.7em;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(34, 34, 34, 0.779);
+    padding: 22px 20px;
+    margin-bottom: 18vh;
+    width: 98.2%;
+}
+
+a#logo{
+    font-size:3em;
+}
+
+a#logo:hover{
+    color:#f5b802f8;
+    transition: 800ms;
+    font-size:3.2em;
+}
+
+nav a#logo{
+    text-decoration: none;
+    color:white;
+    font-family: YellowTail, sans-serif;
+    font-size: 3.2em;
+    font-weight: 800;
+    
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 1.5em;
+}
+nav ul li {
+    text-align: center;
+    width: 100%;
+    margin: 1.8em 0em 0.5em 0em;
+}
+nav ul li a {
+    display:inline-block;
+    padding: 14px 0;
+    width: 100%;
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+nav ul li a:hover{
+    color:#f5b802f8;
+    transition: 800ms;
+} 
+
+.nav-icons{
+    display: none;
+}
+
+.li-icons{
+    display: none;
+}
+
+#nav-fixed{
+    width: 100%;
+    position: fixed;
+}
+
+#mobile-nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98.2%;
+}
+
+.li-mais{
+    display: none;
+}
+
+#nav-mais{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 21%;
+    font-family: 'Familjen Grotesk', sans-serif;
+    top: 30%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../imagens/fundo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 13em 0px 110px 0px;
+    color: white;
+    text-align: center;
+}
+
+section#topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Familjen Grotesk', sans-serif;
+
+
+}
+
+#topo p {
+    font-size: 1.4em;
+    margin: 0.7em 0em 5em 0em;
+    color: white;
+    max-width: 75%;
+   
+    
+}
+
+#topo h1 {
+    font-size: 4em;
+    color:#fffffff8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+   
+}
+
+#topo a.agendamento{
+    color:rgb(246, 246, 246);
+    text-decoration: none;
+    font-size: 0.9em;
+    background-color:#fdcb34f8;
+    padding: 13px 30px;
+    border: 0.35px solid white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p.topo-p {
+    font-size: 0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 2em;
+
+}
+
+
+section#about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color:#fffffff8;
+    padding: 2.5em;
+    
+
+}
+
+
+
+
+section#about h1{
+    font-size: 12.5vw;
+    color: #f7bb0af8 ;
+    margin-bottom: 0.5em;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+div#content{
+    margin: 1em;
+    padding: 2em;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+section#about p{
+    font-size: 1em;
+    color: black ;
+    margin: 1em;
+}
+
+section#about img{
+    width: 100%;
+    
+    max-width: 768px;
+    text-align: center;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.76);
+    border: 0.08px solid rgba(0, 0, 0, 0.821);
+    margin: 10px;
+}   
+
+
+
+section#services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background-image: url(../imagens/fundo6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color:#fffffff8;
+    padding: 1em 1em 9em 1em;
+    font-family: 'Familjen Grotesk', sans-serif;
+
+}
+
+section#services h1{
+    font-size: 4.5em;
+    margin-top: 1.6em;
+    margin-bottom: 1.5em;
+    color: #f6f6f6f8 ;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+div.row{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-between;
+    margin: 1.4em 0.2em;
+    font-size: 1.45em;
+    border-bottom: 1.5px solid #fffffff8;
+}
+
+
+
+
+ section#galeria img{
+    width: 100%;
+    height: 300px;
+    max-width: 328px;
+    text-align: center;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.76);
+    border: 0.08px solid black;
+    margin: 10px;
+}   
+
+section#galeria img:hover{
+    border: 1px solid #f5b802f8;
+    height: 308px;
+    width: 102%;
+    transition: 450ms;
+
+}
+
+
+section#galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color:#fffffff8;
+    padding: 7em 1em 9em 1em;
+    
+
+}
+
+section#galeria h1{
+    font-size: 5em;
+    color: #f7bb0af8 ;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-bottom: 1em;
+}
+
+div.mainDiv-photo{
+    width: 60%;
+}
+
+div.div-photo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cdcdcd;
+    background-image: url(../imagens/fundo2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2em 1em;
+ 
+    
+}
+
+
+#contact h1{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0em 1.1em 0em;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 4.3em;
+    font-weight: 700;
+    color: white;
+    
+    
+}
+
+#form-contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-bottom: 4em;    
+}
+
+
+
+.email-info input{
+    width: 100%;
+}
+
+.message-info input{
+    width: 100%;
+}
+
+#submit-formContact{
+    font-size: 20px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+
+#form-contact input {
+    
+    color: black;
+    background-color: rgb(239, 239, 239);
+    
+
+}
+
+#form-contact input:hover{
+    background-color: #f7d05cec;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#form-contact input#message {
+padding: 3px 3px 120px 3px;
+
+}
+
+#name{
+    margin-right: 30px;
+    padding: 7.5px;
+}
+
+#tel{
+    padding: 7.5px;
+}
+
+#email{
+    padding: 7.5px 0px 7.5px 7.5px;
+
+}
+
+
+#contatotitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    width: 100%;
+   
+
+}
+
+section#secondary-contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 2em 4em 2em;
+    
+}
+
+div#contato-infos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-around ;
+    width: 80%;
+    padding: 1em;
+}
+
+
+h1.contact-title{
+    display: none;
+}
+
+div.info-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 24px;
+    max-width: 300px;
+    
+}
+
+div.info-div h3{
+    letter-spacing: 3px;
+    margin-bottom: 1em;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 27px;
+}
+
+div.info-div a {
+    margin-bottom: 5px;
+    color: rgb(100, 100, 100);
+   
+}
+
+div.info-div p {
+    margin: 6px;
+    color: rgb(100, 100, 100);
+   
+}
+
+
+#localization{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 12, 12);
+    background-size: cover;
+    padding: 2em 1em;
+ 
+    
+}
+
+#localization h2{
+    color: #ebb209f8;
+    margin: 1em;
+}
+
+
+iframe{
+   
+    box-shadow: 3px 3px 16px black;
+    height: 80vh;
+    width: 99.5%;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color:  rgb(61, 61, 61);
+    padding: 3.5em 2em 1.5em 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 1.5em;
+    
+}
+
+
+.content-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 1.35em;
+}
+
+.content-footer a {
+    text-decoration: none;
+    color:white;
+    font-family: YellowTail, sans-serif;
+    font-size: 3.2em;
+    font-weight: 800;
+   
+}
+
+.content-footer p{
+    color: white;
+    font-size: 12px;
+
+}
+
+.aside-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.8em 1em;
+}
+
+.aside-footer a {
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.bold {
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+.desktop{
+    display: none;
+}
+
+
+
+.item{
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+}
+
+
+.hide{
+    display: none;
+}
+
+.animar{
+    animation-name: slide;
+    animation-duration: .6s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.12s;
+
+}
+
+
+
+
+@keyframes slide {
+
+    from{
+        opacity: 0;
+
+    }
+
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+
+
+
+
+
+@media (min-width: 788px) {
+
+    header{
+        padding:  16em 0px 180px 0px;;
+
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: center;
+        padding: 32px 20px;
+       
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 65%;
+        margin-top: 0;
+    }
+
+    nav ul li a {
+        font-size: 1em ;
+    }
+
+    .nav-icons{
+        display: flex;
+        border-left: 1px solid white;
+        gap: 8px;
+        justify-content: space-around;
+        padding-left: 28px;
+       
+    }
+
+    #nav-mais{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        right: 19vw;
+        top: 40%;
+        background-color: rgba(57, 57, 57, 0.714);
+        padding: 15px 40px;
+    }
+
+    #nav-mais a{
+        text-decoration: none;
+        color: white;
+       
+    }
+
+    .li-mais{
+        display:block;
+    }
+
+    a#logo{
+        margin-right: 1.3em;
+    }
+    
+    #menu-hamburguer{
+        display: none;
+    }
+
+    ul#menu{
+        display: flex;
+    }
+
+    nav ul li {
+        margin:0em;
+    }
+
+    #topo h1{
+        font-size: 5em;
+    }
+
+    #topo a.agendamento{
+        font-size: 1.2em;
+
+
+    }
+
+    div.foto{
+        display: flex;
+        background-color: #f5b802f8;
+        height: 90%;
+        width:500px;
+        max-width: 500px;
+    }
+
+    div.foto img{
+        height: 60vw;
+        max-height: 760px;
+
+    }
+    
+       
+    section#about h1 {
+    font-size:9vw;
+    text-align: left;
+    margin-bottom: 5px;
+
+    }
+
+    div#content{
+        padding: 5px;
+        margin: 2em;
+        max-width: 400px;
+        text-align: left;
+    }
+
+    section#about{
+        padding:2.5em ;
+    }
+
+    #mobile-nav{
+       
+        width: auto;
+    }
+
+    section#secondary-contact{
+        padding: 2em 2em 6em 2em;
+       
+    }
+
+    div#contato-infos{
+        flex-direction: row;
+        justify-content:space-around ;
+        padding: 0em;
+        margin-right: 24px;
+    }
+
+    h1.contact-title{
+        display: flex;
+        justify-content: center;
+        margin: 1.9em 0em 2em 0em;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 2.5em;
+        font-weight: 700;
+        
+
+    }
+    div.row{
+      
+        font-size: 1.65em;
+      
+    }
+
+    div.name-info{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #name{
+        width: 100%;
+    }
+
+    #tel{
+        width: 100%;
+    }
+
+    #form-contact{
+        width: 80%;
+        max-width: 670px;
+    }
+
+    footer{
+        flex-direction: row;
+        gap: 1.35;
+        padding: 2.5em 1.25em;
+        justify-content: space-between;
+    }
+
+    .right{
+        text-align: right;
+        margin-right: 5em;
+        margin-bottom: 3.5em;
+
+    }
+
+    .mobile{
+        display: none;
+
+    }
+
+    .desktop{
+        display: flex;
+    }
+
+    .aside-footer{
+        text-align: left;
+    }
+    
+.li-icons{
+    display: block;
+}
+    
+    
+    
+
+   
+   
+    
+   
+}
+
+@media (min-width:875px) {
+
+    section#about p{
+        font-size:1.6em;
+
+       }
+       
+    section#about h1 {
+    font-size:5em;
+    text-align: left;
+    margin-bottom: 5px;
+
+    }
+
+    div#content{
+        padding: 5px;
+        margin: 2em;
+        max-width: 600px;
+    }
+
+    section#about{
+        padding:5.5em ;
+    }
+
+    nav ul li a {
+        font-size: 1.05em ;
+    }
+
+    .right{
+        text-align: right;
+        margin-right: 7.5vw;
+    }
+
+    nav ul {
+        width: 55%;
+    }
+    
+
+    
+}
+
+ 
+
+@media (max-width: 965px ) {
+
+
+    #contato{
+        flex-direction: column;
+        height: 670px;
+        
+    }
+    
+}
+
+
+
+
+@media (max-width: 578px ) {
+
+
+   nav {
+    margin-bottom: 12vh;
+    }
+
+    
+    section#about p{
+        font-size:3.3vw
+
+       }
+       
+    section#about h1 {
+    font-size:13vw;
+    text-align: center;
+
+    }
+
+    div#content{
+        padding: 5px;
+    }
+
+    section#about{
+        padding:0.75em 2em ;
+    }
+
+    #form-contact{
+        width: 70%;
+    }
+
+    #form-contact input{
+        width: 100%;
+    }
+    #name{
+        margin-bottom: 20px;
+    }
+
+    div.div-photo{
+        flex-direction: column;
+
+    }
+    img{
+        height: 250px;
+        margin: 10px;
+    }
+
+    div.div-photo img:hover{
+       
+        height: 260px;
+    
+    
+    }
+    
+    }
+
+
+@media (max-width: 395px ) {
+
+        body{
+            width: 172%;
+        }
+        
+        #topo p {
+            font-size: 1.3em;
+        }
+
+        #topo h1 {
+            font-size: 2.5em;
+        }
+
+        #contact p a {
+            font-size: 12px;
+           }
+        
+           #contact p {
+            font-size: 12px;
+           }
+
+         
+           section#about p{
+            font-size:5vw
+
+           }
+           section#about h1 {
+            font-size:20vw
+
+           }
+    }
+
+
+
+
+
+
+
+/* last functions do site 

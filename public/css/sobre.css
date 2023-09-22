@@ -1,0 +1,117 @@
+#sobre{ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #191970;
+    color: white;
+    padding: 3em;
+
+}
+
+#sobre h2{
+    font-size: 2.7em;
+    margin-bottom: 1.5em;
+}
+
+#sobre p {
+    font-size: 1.4em;
+    margin-bottom: 1.5em;
+    max-width: 1000px;
+}
+
+#sobre a {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    padding: 10px 30px;
+    font-size: 1.6em;
+    background-color: white;
+    border-radius: 3px;
+}
+
+
+#servicos  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    
+}
+
+#servicos div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    
+}
+#servicos h3{
+    text-align: center;
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+
+#servicos h2{
+    text-align: center;
+    font-size: 2.5em;
+    margin: 1em;
+}
+
+
+@media (min-width: 768px) {
+
+    #sobre{
+        height: 400px;
+        height: 40vh;
+        min-height: 400px;
+
+    }
+
+    #servicos  {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+        margin-bottom: 1em;
+        
+
+    }
+    #servicos h3 {
+        font-size: 1.5em;
+    }
+
+
+    #servicos h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* configuração da flex box filha para o alinhamento vertical de divs*/
+    #servicos div {
+        flex-grow: 1;
+        flex-basis: 180px;
+        padding: 0 30px;
+
+    }
+
+}
+
+@media (max-width: 530px ) {
+    #mudança iframe{
+        width: 85vw;
+        height: 1000px;
+        padding: 0px;
+    }
+    #comandos a {
+       
+       
+        margin: 1em;
+    }
+
+}
+
+@media (max-width: 350px ) {
+    
+}
