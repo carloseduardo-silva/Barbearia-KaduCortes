@@ -140,9 +140,10 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    padding: 13em 0px 110px 0px;
+    padding: 1em 0em 0em 0em;
     color: white;
     text-align: center;
+    height: 99vh;
 }
 
 section#topo{
@@ -205,6 +206,7 @@ section#about{
     background-color: #1b1b1b;
     color:#fffffff8;
     padding: 2.5em;
+    height: 98vh;
     
 
 }
@@ -213,7 +215,7 @@ section#about{
 
 
 section#about h1{
-    font-size: 12.5vw;
+    font-size: 6em;
     color: white ;
     margin-bottom: 0.5em;
   
@@ -221,14 +223,14 @@ section#about h1{
 
 div#content{
     margin: 1em;
-    padding: 2em;
+    padding: 10px;
     max-width: 600px;
     text-align: center;
 }
 
 
 section#about p{
-    font-size: 1em;
+    font-size: 1.4em;
     margin: 1em;
 }
 
@@ -255,7 +257,7 @@ section#services{
     background-position: center center;
     color:#fffffff8;
     padding: 1em 1em 9em 1em;
-    font-family: 'Familjen Grotesk', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -358,7 +360,7 @@ div.div-photo{
     justify-content: center;
     flex-direction: column;
     gap: 22px;
-    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 4em;    
 }
 
@@ -393,7 +395,7 @@ div.div-photo{
 }
 
 #form-contact input#message {
-padding: 3px 3px 120px 3px;
+padding: 6px 3px 120px 3px;
 
 }
 
@@ -426,10 +428,18 @@ section#secondary-contact{
     display: flex;
     align-items:center;
     flex-direction: column;
-    padding: 2em 2em 4em 2em;
+    padding: 4em 2em 5em 2em;
     background-color:  #1b1b1b;
     color: white;
     
+}
+
+section#secondary-contact p{
+    color: rgb(220, 220, 220);
+}
+
+section#secondary-contact a {
+    color: rgb(220, 220, 220);
 }
 
 div#contato-content{
@@ -460,6 +470,7 @@ div#contato-content button{
     padding: 4px 14px 4px 10px;
     border-radius: 10px;
     margin: 10px;
+    gap: 8px;
 }
 
 div#contato-content button:hover{
@@ -652,38 +663,7 @@ footer{
 
     }
 
-    div.foto{
-        display: flex;
-        background-color: #f5b802f8;
-        height: 90%;
-        width:500px;
-        max-width: 500px;
-    }
-
-    div.foto img{
-        height: 60vw;
-        max-height: 760px;
-
-    }
     
-       
-    section#about h1 {
-    font-size:9vw;
-    text-align: left;
-    margin-bottom: 5px;
-
-    }
-
-    div#content{
-        padding: 5px;
-        margin: 2em;
-        max-width: 400px;
-        text-align: left;
-    }
-
-    section#about{
-        padding:2.5em ;
-    }
 
     div.div-photo{
         flex-direction: row;
@@ -757,29 +737,7 @@ footer{
 
 @media (min-width:875px) {
 
-    section#about p{
-        font-size:1.6em;
-
-       }
-       
-    section#about h1 {
-    font-size:5em;
-    text-align: left;
-    margin-bottom: 5px;
-
-    }
-
-    div#content{
-        padding: 5px;
-        margin: 2em;
-        max-width: 600px;
-    }
-
-    section#about{
-        padding:5.5em ;
-    }
- 
-
+  
     .right{
         text-align: right;
         margin-right: 7.5vw;
@@ -820,7 +778,8 @@ footer{
 
     div#contato-content button{
         align-items: center;
-        padding: 8px 14px 8px 10px;
+       
+        padding: 1em;
         margin: 10px 0px;
     }
 
@@ -858,7 +817,7 @@ footer{
 @media (min-width:1000px) {
 
     header{
-        padding:  16em 0px 180px 0px;;
+        padding: 3.5em 0em 0em 0em;
 
     }
 
@@ -935,6 +894,57 @@ footer{
         width: auto;
     }
 
+    div.foto{
+        display: flex;
+        background-color: #f5b802f8;
+        height: 90%;
+        width: 469px;
+        max-width: 469px;
+    }
+
+    div.foto img{
+        height: 55vw;
+        max-height: 760px;
+
+    }
+    
+       
+    section#about h1 {
+    font-size:9vw;
+    text-align: left;
+    margin-bottom: 5px;
+
+    }
+
+    div#content{
+        padding: 5px;
+        margin: 0em 0em 1em 5em;
+        max-width: 600px;
+        text-align: left;
+    }
+
+    section#about p{
+        font-size:1.6em;
+
+       }
+       
+    section#about h1 {
+    font-size:5em;
+    text-align: left;
+    margin-bottom: 5px;
+
+    }
+
+
+
+
+    section#about{
+        padding:4.5em;
+        height: auto;
+    }
+ 
+
+
     
 }
 
@@ -954,7 +964,7 @@ footer{
 }
 
 
-@media (max-width: 578px ) {
+@media (max-width: 598px ) {
 
 
    nav {
@@ -963,12 +973,12 @@ footer{
 
     
     section#about p{
-        font-size:3.3vw
+        font-size:17px;
 
        }
        
     section#about h1 {
-    font-size:13vw;
+    font-size:5em;
     text-align: center;
 
     }
@@ -977,9 +987,7 @@ footer{
         padding: 5px;
     }
 
-    section#about{
-        padding:0.75em 2em ;
-    }
+  
 
     #form-contact{
         width: 70%;
@@ -1001,12 +1009,7 @@ footer{
         margin: 10px;
     }
 
-    div.div-photo img:hover{
-       
-        height: 260px;
-    
-    
-    }
+ 
     
     }
 
